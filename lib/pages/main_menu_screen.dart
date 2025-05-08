@@ -12,7 +12,7 @@ class MainMenuScreen extends StatefulWidget {
 }
 
 class _MainMenuScreenState extends State<MainMenuScreen> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 3;
 
   final List<Widget> _screens = [
     SettingsScreen(),
